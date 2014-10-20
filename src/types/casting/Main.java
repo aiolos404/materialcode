@@ -6,8 +6,8 @@ public class Main {
 	private Main(){}
 	public static void main(String[] args){
 		//Upcasts always compile and run OK
-		Number n1 = new Integer(42);
-		Number n2 = (Number) new Float(3.14);
+		Number n1 = new Integer(42);			//implicit upcast
+		Number n2 = (Number) new Float(3.14);	//explicit upcast
 		
 		//Explicit downcasts always compile,but may cause runtime errors
 	//	Integer i1 = n1;			//implicit downcast:compiler error
