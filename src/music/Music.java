@@ -11,7 +11,7 @@ class Music {
 	public static void scalePitch(double factor){
 		_pitch *= factor;
 	}
-	public static void reset(){
+	public void reset(){
 		_pitch = 440;
 	}
 }

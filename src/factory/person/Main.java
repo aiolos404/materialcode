@@ -1,4 +1,4 @@
-package factory.person.main;
+package factory.person;
 import factory.person.Person;
 import factory.person.SSN;
 import factory.person.PersonFactory;
